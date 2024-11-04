@@ -42,8 +42,6 @@ At least one output file must be specified
 
 The easiest way to deploy your Axum Rust app is to use the [Wasmer Edge](https://wasmer.io/products/edge).
 
-Live example: https://wasix-axum-example.wasmer.app
-
 ```bash
 wasmer deploy
 ```
