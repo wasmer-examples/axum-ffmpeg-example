@@ -16,7 +16,7 @@ $ wasmer run wasmer/ffmpeg --dir=. -- -f lavfi -i testsrc=duration=1:size=128x12
 Then, you can run the server easily using Wasmer:
 
 ```bash
-$ wasmer run . --env PORT=8080
+$ wasmer run --net --env PORT=8080 .
 Listening on http://127.0.0.1:8080
 ```
 
