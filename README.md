@@ -22,7 +22,7 @@ Listening on http://127.0.0.1:3000
 
 Finally, you can send the file to the endpoint
 ```bash
-curl -X POST -F "file=@small_test_video.mp4" http://localhost:3000/codecs
+$ curl -X POST -F "file=@small_test_video.mp4" http://localhost:3000/codecs
 Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/tmp/small_test_video.mp4':
   Metadata:
     major_brand     : isom
