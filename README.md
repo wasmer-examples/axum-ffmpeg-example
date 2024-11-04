@@ -1,7 +1,5 @@
 This is an [Axum](https://github.com/tokio-rs/axum) Web Server that uses ffmpeg to return the codec information of a file.
 
-> Checkout the full tutorial [here](http://wasix.org/docs/language-guide/rust/tutorials/wasix-axum)
-
 ## Getting started
 
 First, build the project using [`cargo-wasix`](https://crates.io/crates/cargo-wasix):
